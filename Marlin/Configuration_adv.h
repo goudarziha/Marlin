@@ -721,7 +721,7 @@
    * differs, a mode set eeprom write will be completed at initialization.
    * Use the option below to force an eeprom write to a V3.1 probe regardless.
    */
-#define BLTOUCH_SET_5V_MODE
+// #define BLTOUCH_SET_5V_MODE
 
 /**
    * Safety: Activate if connecting a probe with an unknown voltage mode.
@@ -2684,7 +2684,7 @@
    * Enable M122 debugging command for TMC stepper drivers.
    * M122 S0/1 will enable continous reporting.
    */
-//#define TMC_DEBUG
+#define TMC_DEBUG
 
 /**
    * You can set your own advanced settings by filling in predefined functions.
